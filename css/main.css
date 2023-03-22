@@ -112,7 +112,6 @@ button.navbar-toggler{
   overflow: hidden;
   position: relative;
   width: 100%;
-  background-attachment: fixed;
   background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
@@ -136,27 +135,9 @@ button.navbar-toggler{
   margin-bottom: 40px;  
 }
 
-/*
-.ParallaxVideo{ 
-  height: 200px;
-}
-*/
-
 .ParallaxVideo video{ 
-  min-width: 100%;
   position: fixed;
-  top:0;
   z-index: -999;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.ParallaxVideo h1 {
-  color: #fff;
-  font-size: 76px;
-  font-weight: 700;
-  text-align: center;
-  text-transform: uppercase;
 }
 
 
@@ -491,6 +472,7 @@ iframe{
   width: 180px;
 }
 
+
 a.resume {
   text-decoration: none;
   text-align: center;
@@ -500,6 +482,11 @@ a.resume {
   color: white;
   background-color: #002d5b;
   transition: 0.3s;
+}
+
+.resume:visited{
+  color:white;
+
 }
 /*end about section*/
 
@@ -639,6 +626,40 @@ color: #1891c9 !important
     -webkit-background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+  }
+
+  
+  .parallax-name{
+    text-align: center;
+    font-size: 50px;
+    color: white;  
+  }
+  
+  .parallax-info{
+    text-align: center;
+    font-size: 35px;
+    color: white;
+  }
+  
+  .parallax-text{
+    margin-bottom: 40px;  
+  }
+  
+  .ParallaxVideo video{ 
+    min-width: 100%;
+    position: fixed;
+    top:0;
+    z-index: -999;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .ParallaxVideo h1 {
+    color: #fff;
+    font-size: 76px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
   }
 
   .mywork{
@@ -808,6 +829,7 @@ color: #1891c9 !important
 
 /* Tablet size */
 @media (min-width: 768px) and (max-width: 1223px) {
+  /*
   .parallax1 {
     background-image: none;
     padding-top: 215px;
@@ -819,6 +841,57 @@ color: #1891c9 !important
     left: 50%;
     transform: translateX(-50%);
   }
+  */
+
+  .parallax1 {
+    background-image: none;
+    padding-top: 215px;
+    padding-bottom: 215px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  
+  .parallax-name{
+    text-align: center;
+    font-size: 50px;
+    color: white;  
+  }
+  
+  .parallax-info{
+    text-align: center;
+    font-size: 35px;
+    color: white;
+  }
+  
+  .parallax-text{
+    margin-bottom: 40px;  
+  }
+  
+  .ParallaxVideo video{ 
+    min-width: 155%;
+    position: fixed;
+    top:0;
+    z-index: -999;
+    left: 50%;
+    transform: translateX(-50%);    
+  }
+  
+  .ParallaxVideo h1 {
+    color: #fff;
+    font-size: 76px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
 
   .portfolio-width, .portfolio-title-container, .modal-container, .about-header, .about-flex, .contact-container{
     width: 75%;

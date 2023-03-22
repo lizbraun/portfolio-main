@@ -136,8 +136,20 @@ button.navbar-toggler{
 }
 
 .ParallaxVideo video{ 
+  min-width: 100%;
   position: fixed;
+  top:0;
   z-index: -999;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.ParallaxVideo h1 {
+  color: #fff;
+  font-size: 76px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 
@@ -315,6 +327,7 @@ button.close:hover{
   display: flex;
   justify-content: center;
   padding-bottom: 24px;
+  margin-bottom: 0px;
 }
   
 .modal-link a{
@@ -712,6 +725,13 @@ color: #1891c9 !important
     padding: 2px 4%;
   }
 
+  .modal-link-container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+    margin: 0 auto;
+  }
+
   .about-text{
     width: 100%;
     padding-left: 30px;
@@ -924,6 +944,13 @@ color: #1891c9 !important
 
   .modal-body{
     padding: 2px 120px;
+  }
+
+  .modal-link-container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+    margin: 0 auto;
   }
 
   .footer{

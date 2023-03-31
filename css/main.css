@@ -69,6 +69,7 @@ nav, .parallax-header, .about-header, h3, .modal-title, .modal-subtitle, .bottom
 .navbar {
   padding: 2px 1rem;
   background-color: black!important;
+  
 }
   
 .navbar-dark .navbar-nav .nav-link:hover {
@@ -170,6 +171,7 @@ button.navbar-toggler{
 /* Modal CSS for preview */
 .modal-color-container{
   background-color: white;
+  padding-bottom: 30px;
 }
 
 .modal1{
@@ -257,6 +259,7 @@ button.close:hover{
 
 .modal-header{
     border: none;
+    padding-top: 0px;
 }
 
 .modal-dialog{
@@ -506,8 +509,8 @@ a.resume {
 
 /* Contact section */
 .contact{
-  background-color: white;
-  padding: 30px 0px;
+  background-color: #1891c9;
+  padding: 60px 0px;
 }
 
 .contact-container{
@@ -515,11 +518,52 @@ a.resume {
   margin: auto;
 }
 
+.contact-header{
+  color: white;
+  font-weight: 400;
+}
+
 .contact-body{
   margin-bottom: 0px;
   font-size: 20px;
+  color: white;
 }
 
+.contact-email, .contact-linkedin{
+  display: flex;
+  align-items: center;
+}
+
+.email-link a{
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  margin-left: 30px;
+}
+
+.email-link a:hover{
+  color: #002d5b;
+  transition: .3s;
+}
+
+.linkedin-link{
+  font-size: 20px;
+  color: white;
+}
+
+.linkedin-link a {
+  color: white;
+  text-decoration: none;
+  margin-left: 30px;
+}
+
+.linkedin-link a:hover{
+  color: #002d5b;
+  text-decoration: none;
+  transition: .3s;
+}
+
+/* not using form atm*/
 .form-button{
   color: white;
   background-color: #1891c9;
@@ -540,6 +584,12 @@ a.resume {
 
 form span{
   color: red;
+}
+
+.blue-swirls{
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
 }
 
 
@@ -665,6 +715,7 @@ color: #1891c9 !important
     z-index: -999;
     left: 50%;
     transform: translateX(-50%);
+    
   }
   
   .ParallaxVideo h1 {
@@ -678,6 +729,7 @@ color: #1891c9 !important
   .mywork{
     padding: 30px 0px;
     padding-left: 10px;
+    font-weight: 400;
   }
 
   .mobile-text{
@@ -792,6 +844,56 @@ color: #1891c9 !important
   .stylized1, .stylized2{
     margin: 0 auto;
     display: block;
+  }
+
+  .contact-header{
+    color: white;
+  }
+  
+  .contact-body{
+    margin-bottom: 0px;
+    font-size: 20px;
+    color: white;
+  }
+  
+  .contact-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .contact-email, .contact-linkedin{
+    display: flex;
+    align-items: center;
+  }
+  
+  .email-link a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+  }
+  
+  .email-link a:hover{
+    color: #002d5b;
+    transition: .3s;
+  }
+  
+  .linkedin-link{
+    font-size: 20px;
+    color: white;
+  }
+  
+  .linkedin-link a {
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+  }
+  
+  .linkedin-link a:hover{
+    color: #002d5b;
+    text-decoration: none;
+    transition: .3s;
   }
 
   .footer{
@@ -951,6 +1053,56 @@ color: #1891c9 !important
     justify-content: space-evenly;
     width: 600px;
     margin: 0 auto;
+  }
+
+  .contact-header{
+    color: white;
+  }
+  
+  .contact-body{
+    margin-bottom: 0px;
+    font-size: 20px;
+    color: white;
+  }
+  
+  .contact-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .contact-email, .contact-linkedin{
+    display: flex;
+    align-items: center;
+  }
+  
+  .email-link a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+  }
+  
+  .email-link a:hover{
+    color: #002d5b;
+    transition: .3s;
+  }
+  
+  .linkedin-link{
+    font-size: 20px;
+    color: white;
+  }
+  
+  .linkedin-link a {
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+  }
+  
+  .linkedin-link a:hover{
+    color: #002d5b;
+    text-decoration: none;
+    transition: .3s;
   }
 
   .footer{

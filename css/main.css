@@ -138,6 +138,7 @@ button.navbar-toggler{
 
 .ParallaxVideo video{ 
   min-width: 100%;
+  width: 101%;
   position: fixed;
   top:0;
   z-index: -999;

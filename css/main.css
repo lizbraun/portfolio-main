@@ -144,6 +144,8 @@ button.navbar-toggler{
   z-index: -999;
   left: 50%;
   transform: translateX(-50%);
+  object-fit: fill;
+
 }
 
 .ParallaxVideo h1 {
@@ -152,6 +154,12 @@ button.navbar-toggler{
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
+}
+
+.ParallaxVideo video[poster]{
+  object-fit: fill;
+  margin: 0 auto;
+  padding: 0px;
 }
 
 
@@ -707,6 +715,10 @@ color: #1891c9 !important
   
   .parallax-text{
     margin-bottom: 40px;  
+  }
+
+  .ParallaxVideo{
+    width: 101%;
   }
   
   .ParallaxVideo video{ 

@@ -158,7 +158,7 @@ button.navbar-toggler{
 
 .ParallaxVideo video[poster]{
   width: 106.5%;
-  /* the borders no longer show up on the sides, but the top border shows on scroll. Unsure why. Functional for now*/
+  /* the borders no longer show up on the sides, but the top border shows on scroll. Unsure why. Functional for now.s*/
 }
 
 
